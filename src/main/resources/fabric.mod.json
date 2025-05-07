@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "useful-bamboo",
+	"version": "${version}",
+	"name": "Useful Bamboo",
+	"description": "Make bamboo more useful!",
+	"authors": [
+		"idkwhodatis"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/idkwhodatis",
+		"sources": "https://github.com/idkwhodatis/Useful-Bamboo"
+	},
+	"license": "MPL-2.0",
+	"icon": "assets/useful-bamboo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.idkwhodatis.usefulbamboo.UsefulBamboo"
+		],
+		"client": [
+			"com.idkwhodatis.usefulbamboo.UsefulBambooClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
